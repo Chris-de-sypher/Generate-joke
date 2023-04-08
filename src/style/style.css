@@ -1,0 +1,90 @@
+/** @format */
+
+html {
+  box-sizing: border-box;
+}
+
+*::before,
+::after {
+  content: "";
+  box-sizing: inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  height: 100vh;
+  background: #0c257d;
+}
+.joke-wrapper {
+  width: 400px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  flex-direction: column;
+}
+
+.joke-heading {
+  text-align: center;
+  color: #000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.punchline {
+  text-align: center;
+  color: #000;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 0.8em;
+  font-weight: lighter;
+  margin-bottom: 18px;
+  line-height: 1.4em;
+  color: #ecf0f3;
+  resize: none;
+  background: transparent;
+  border: none;
+  outline: none;
+  display: block;
+  width: 300px;
+  height: auto;
+  min-height: 100px;
+  padding: 15px 10px;
+}
+.punchline::-webkit-scrollbar{
+  display: none;
+}
+
+.joke-wrapper button {
+  background: #0c257d;
+  outline: none;
+  border: 2px solid #0c257d;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px auto;
+}
+#copy{
+  display: block;
+  float: right;
+  width: max-content;
+  cursor: pointer;
+  color: #fff;
+}
