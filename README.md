@@ -6,7 +6,7 @@ We generate jokes through an api, and this api can be found in the jokeUrl.js fi
 * HTML
 * CSS
 * JS
--
+
 ### Thanks for the much love and pls don't forget to follow me on twitter [@Christian](https://twitter.com/chris-de-sypher)
 
 ## Gracias ❤
